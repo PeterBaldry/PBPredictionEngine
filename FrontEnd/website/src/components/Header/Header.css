@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    background-color: #1d1d1d;
+    align-items: flex-start;
+    padding: 10px 10px 10px 50px;
+}
