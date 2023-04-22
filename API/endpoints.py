@@ -45,7 +45,7 @@ def updateLadder(ladderBody: Ladder, sport: str = "nrl"):
 
     return {}
 
-@app.put("/{sport}/nrl")
+@app.put("/{sport}/fixture")
 def updateFixture(fixtureBody: Round, sport: str = "nrl"):
     
     try:
