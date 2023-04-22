@@ -1,0 +1,24 @@
+.menu__navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    list-style-type: none;
+    background: #1d1d1d;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu__navbar__item {
+    margin: 10px;
+}
+
+.menu__navbar__item__link {
+    text-decoration: none;
+    color: rgb(227, 249,248);
+    font-size: 1.2rem;
+}
+
+.menu__navbar__item__link:hover {
+    color: rgb(157,246,253);
+}
