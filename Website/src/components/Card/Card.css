@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    color:#1d1d1d;
+    font-family: Copperplate;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.card:hover {
+    cursor: pointer;
+    color: rgb(227, 249,248);
+    background-color: #1d1d1d;
+}
