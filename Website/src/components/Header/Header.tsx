@@ -15,10 +15,6 @@ function Header(props: HeaderProps) {
     {
       url: "/weather",
       text: "Weather"
-    },
-    {
-      url: "/stocks",
-      text: "Stock Market"
     }
   ]
   return (

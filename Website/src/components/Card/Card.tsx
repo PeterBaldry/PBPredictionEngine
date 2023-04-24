@@ -1,21 +1,23 @@
 import './Card.css';
-import weatherImage from '../../assets/weather.jpg';
-import sportImage from '../../assets/sport.jpg';
 
 type CardProps = {
   cardTitle: string,
-  config: string
+  cardImg: any,
+  cardUrl: string
 }
 
 function Card(props: CardProps) {
-  const img = (props.config === "weather") ? weatherImage : sportImage;
+
+  function onCardClick(): void {
+      window.location.href = props.cardUrl;
+  }
 
   return (
-    <div className="card">
+    <div className="card" onClick={onCardClick}>
       <h1> {props.cardTitle}</h1>
       <img
             alt=""
-            src= {img}
+            src= {props.cardImg}
             width="90%"
             height="70%"
           />{' '}
