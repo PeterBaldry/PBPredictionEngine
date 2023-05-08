@@ -26,6 +26,7 @@ function Header(props: HeaderProps) {
             width="231"
             height="75"
             className="header__top__img"
+            onClick={() => window.location.href = "/"}
           />{' '}
           <div className="header__right">
             <Menu menuLinks={menuLinks}/>

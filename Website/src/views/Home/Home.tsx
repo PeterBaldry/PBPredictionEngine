@@ -1,17 +1,17 @@
-import Card from '../../components/Card/Card';
+import ImageCard from '../../components/ImageCard/ImageCard';
 import weatherImage from '../../assets/weather.jpg';
 import sportImage from '../../assets/sport.jpg';
 import PageHeading from '../../components/PageHeading/PageHeading';
-
+import './Home.css';
 
 function Home() {
 
     return (
-        <div>
+        <div className="home">
             <PageHeading pageTitle="Predictions powered by artificial intelligence" />
-            <div className="card-container">
-                <Card cardTitle="Sport" cardImg={sportImage} cardUrl="\sport"/>
-                <Card cardTitle="Weather" cardImg={weatherImage} cardUrl="\weather"/>
+            <div className="home__card-container">
+                <ImageCard cardTitle="Sport" cardImg={sportImage} cardUrl="\sport"/>
+                <ImageCard cardTitle="Weather" cardImg={weatherImage} cardUrl="\weather"/>
             </div>
         </div>
     )

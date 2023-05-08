@@ -1,0 +1,46 @@
+.prediction-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 220px;
+    background-color:#e8e7e7;
+    font-family: Copperplate;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.prediction-card:hover {
+    cursor: pointer;
+    color: rgb(227, 249,248);
+    background-color: #1d1d1d;
+}
+
+.prediction-card__sport {
+    display: flex;
+    font-weight: 700;
+}
+
+.prediction-card__team-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prediction-card__team-predictions {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-one {
+    width: 160px;
+    height: 20px;
+    background-color: rgb(41,180,233);
+}
+
+.team-two {
+    width: 60px;
+    height: 20px;
+    background-color: rgb(180,40,46);
+}

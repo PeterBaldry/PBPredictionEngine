@@ -1,4 +1,4 @@
-import './Card.css';
+import './ImageCard.css';
 
 type CardProps = {
   cardTitle: string,
@@ -6,7 +6,7 @@ type CardProps = {
   cardUrl: string
 }
 
-function Card(props: CardProps) {
+function ImageCard(props: CardProps) {
 
   function onCardClick(): void {
       window.location.href = props.cardUrl;
@@ -25,4 +25,4 @@ function Card(props: CardProps) {
   );
 }
 
-export default Card;
+export default ImageCard;

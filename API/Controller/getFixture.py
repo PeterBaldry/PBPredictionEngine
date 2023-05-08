@@ -6,7 +6,7 @@ from Utils.common import *
 def getFixtureNRL(season, roundNum=None):
 
     ## initialise service client and file
-    connectionString = os.env['CONNECTION_STRING']
+    connectionString = os.environ['CONNECTION_STRING']
     serviceClient = AzureServiceClient(connectionString)
     fileName = 'nrlfixtures.pkl'
     downloadFilePath = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'Data/nrl', "%s" % fileName)
