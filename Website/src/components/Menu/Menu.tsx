@@ -12,9 +12,9 @@ type MenuLink = {
 
 function Menu(props: MenuProps) {
 
-  function renderMenuItem(menuLink: MenuLink) {
+  function renderMenuItem(menuLink: MenuLink, index: number) {
       return (
-        <li className="menu__navbar__item">
+        <li className="menu__navbar__item" key={index} >
           <a className="menu__navbar__item__link" href={menuLink.url}> {menuLink.text} </a>
         </li>
       );
@@ -25,8 +25,8 @@ function Menu(props: MenuProps) {
       <nav>
         <ul className="menu__navbar">
           {
-            props.menuLinks.map(function(menuLink) {
-              return renderMenuItem(menuLink);
+            props.menuLinks.map(function(menuLink, index) {
+              return renderMenuItem(menuLink, index);
             })
           }
         </ul>

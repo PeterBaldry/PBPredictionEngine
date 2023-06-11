@@ -1,20 +1,28 @@
+import { useEffect, useState } from 'react';
 import PageHeading from '../../components/PageHeading/PageHeading';
 import PredictionCard from '../../components/PredictionCard/PredictionCard';
+import getNRLFixtures from '../../services/Sport/NRLFixtures';
 import './Sport.css';
 
 function Sport() {
+    const [matches, setMatches] = useState(null);
+
+    useEffect(function() {
+        getNRLFixtures().then(function(data) {
+            setMatches(data);
+        });
+    }, []);
 
     return (
         <div className="sport">
             <PageHeading pageTitle="Sport predictions" />
             <h2 className="sport__header">Upcoming matches</h2>
-            <div className="sport__upcoming">
-                <PredictionCard team1="Titans" team2="Dolphins"/>
-                <PredictionCard team1="Storm" team2="Broncos"/>
-                <PredictionCard team1="Panthers" team2="Eels"/>
-                <PredictionCard team1="Rabbitohs" team2="Warriors"/>
-                <PredictionCard team1="Knights" team2="Tigers"/>
-            </div>
+            {matches && 
+                <div className="sport__upcoming">
+                    <PredictionCard key={1} team1={matches["2019"]["1"][0][0]} team2="Dolphins"/>
+                    <PredictionCard key={2} team1="Storm" team2="Broncos"/>
+                </div>
+            }
         </div>
     )
 }

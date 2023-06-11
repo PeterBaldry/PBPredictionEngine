@@ -5,8 +5,18 @@ from Controller.updateFixture import updateFixtureNRL
 from Model.Ladder import Ladder
 from Model.Round import Round
 import uvicorn
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/health")
 def health():

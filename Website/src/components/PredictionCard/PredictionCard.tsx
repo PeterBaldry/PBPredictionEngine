@@ -10,10 +10,10 @@ function PredictionCard(props: any) {
             NRL
         </div>
         <div className="prediction-card__team-names">
-            <p>
+            <p className="prediction-card__team-names__team">
                 {props.team1} 
             </p>
-            <p>
+            <p className="prediction-card__team-names__team">
                 {props.team2} 
             </p>
         </div>

@@ -44,3 +44,9 @@
     height: 20px;
     background-color: rgb(180,40,46);
 }
+
+.prediction-card__team-names__team {
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: left;
+}
