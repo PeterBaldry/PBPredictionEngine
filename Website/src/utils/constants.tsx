@@ -1,0 +1,4 @@
+export const constants = {
+    teamColours: {'Brisbane Broncos': 'rgb(117,5,54)', 'Canberra Raiders': '#b1d231', 'Canterbury-Bankstown Bulldogs': 'rgb(11,86,162)', 'Cronulla-Sutherland Sharks': 'rgb(27,170,214)', 'Gold Coast Titans':'rgb(41,180,233)', 'Manly-Warringah Sea Eagles': 'rgb(112,19,55)', 'Melbourne Storm':'rgb(81,48,128)', 'Newcastle Knights':'rgb(10,85,157)','New Zealand Warriors':'rgb(35,31,32)','North Queensland Cowboys':'rgb(3,44,91)', 'Parramatta Eels':'#fed240', 'Penrith Panthers':'rgb(0,0,0)', 'South Sydney Rabbitohs':'rgb(10,91,49)', 
+'St. George Illawarra Dragons':'rgb(224,38,38)','Sydney Roosters':'rgb(240,47,53)', 'Wests Tigers':'rgb(244,139,49)', 'Dolphins': 'rgb(180,40,46)'}
+} as const;

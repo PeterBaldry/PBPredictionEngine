@@ -1,20 +1,15 @@
 .prediction-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100px;
+    justify-content: flex-start;
     width: 220px;
-    background-color:#e8e7e7;
+    background-color: #1d1d1d;
+    color: rgb(227, 249,248);
     font-family: Copperplate;
     border-radius: 5px;
     margin-left: 10px;
     padding: 10px;
-}
-
-.prediction-card:hover {
-    cursor: pointer;
-    color: rgb(227, 249,248);
-    background-color: #1d1d1d;
+    margin-bottom: 10px;
 }
 
 .prediction-card__sport {
@@ -28,25 +23,61 @@
     justify-content: space-between;
 }
 
+.prediction-card__team-percents {
+    display: flex;
+    justify-content: space-between;
+}
+
 .prediction-card__team-predictions {
     display: flex;
     flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(157 246 253);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .team-one {
-    width: 160px;
     height: 20px;
     background-color: rgb(41,180,233);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: solid 2px rgb(157 246 253);
 }
 
 .team-two {
-    width: 60px;
     height: 20px;
     background-color: rgb(180,40,46);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
-.prediction-card__team-names__team {
+.prediction-card__team-names__team-one {
     margin-left: 0px;
+    margin-bottom: 0px;
     padding-left: 0px;
     text-align: left;
+}
+
+.prediction-card__team-names__team-two {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    text-align: right;
+}
+
+.prediction-card__team-percents__team-one {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.prediction-card__team-percents__team-two {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    text-align: right;
 }

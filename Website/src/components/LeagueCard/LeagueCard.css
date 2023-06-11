@@ -1,10 +1,8 @@
-.card {
+.league-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 400px;
-    width: 300px;
+    width: 220px;
     background-color: #1d1d1d;
     color: rgb(227, 249,248);
     font-family: Copperplate;
@@ -14,7 +12,7 @@
     margin-bottom: 10px;
 }
 
-.card:hover {
+.league-card:hover {
     cursor: pointer;
     color: rgb(227, 249,248);
     background-color: #1d1d1d;

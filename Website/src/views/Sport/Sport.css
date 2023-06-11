@@ -3,4 +3,19 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.sport {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sport__leagues {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
