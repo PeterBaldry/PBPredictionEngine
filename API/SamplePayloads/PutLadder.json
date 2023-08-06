@@ -1,91 +1,91 @@
 {
     "season": 2023,
-    "roundNum": 14,
+    "roundNum": 22,
     "teams": {
         "Penrith Panthers": [
             1,
-            290,
-            143
+            493,
+            236
         ],
         "Brisbane Broncos": [
             2,
-            332,
-            243
-        ],
-        "South Sydney Rabbitohs": [
-            3,
-            352,
-            247
-        ],
-        "Cronulla-Sutherland Sharks": [
-            4,
-            311,
-            231
-        ],
-        "Melbourne Storm": [
-            5,
-            250,
-            251
-        ],
-        "Canberra Raiders": [
-            6,
-            280,
-            329
+            504,
+            351
         ],
         "New Zealand Warriors": [
+            3,
+            457,
+            346
+        ],
+        "Melbourne Storm": [
+            4,
+            466,
+            365
+        ],
+        "Canberra Raiders": [
+            5,
+            402,
+            480
+        ],
+        "South Sydney Rabbitohs": [
+            6,
+            500,
+            410
+        ],
+        "Cronulla-Sutherland Sharks": [
             7,
-            256,
-            244
+            495,
+            425
         ],
-        "Dolphins": [
+        "North Queensland Cowboys": [
             8,
-            298,
-            305
+            474,
+            426
         ],
-        "Sydney Roosters": [
+        "Newcastle Knights": [
             9,
-            204,
-            270
+            461,
+            389
         ],
         "Manly-Warringah Sea Eagles": [
             10,
-            251,
-            269
-        ],
-        "Newcastle Knights": [
-            11,
-            259,
-            285
+            399,
+            424
         ],
         "Parramatta Eels": [
-            12,
-            324,
-            272
+            11,
+            507,
+            448
         ],
         "Gold Coast Titans": [
-            13,
-            286,
-            335
+            12,
+            439,
+            482
         ],
-        "North Queensland Cowboys": [
+        "Dolphins": [
+            13,
+            411,
+            503
+        ],
+        "Sydney Roosters": [
             14,
-            286,
-            351
+            324,
+            434
         ],
         "Canterbury-Bankstown Bulldogs": [
             15,
-            231,
-            325
-        ],
-        "Wests Tigers": [
-            16,
-            221,
-            264
+            354,
+            615
         ],
         "St. George Illawarra Dragons": [
+            16,
+            394,
+            533
+        ],
+        "Wests Tigers": [
             17,
-            262,
-            329
+            301,
+            514
         ]
     }
 }

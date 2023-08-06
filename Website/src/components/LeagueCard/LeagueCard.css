@@ -3,8 +3,11 @@
     flex-direction: column;
     justify-content: center;
     width: 220px;
-    background-color: #1d1d1d;
-    color: rgb(227, 249,248);
+    /* background-color: #1d1d1d;
+    color: rgb(227, 249,248); */
+    color: #1d1d1d;
+    /*background-color: #e0e0e0;*/
+    border: solid 1px #1d1d1d;
     font-family: Copperplate;
     border-radius: 5px;
     margin-left: 10px;
@@ -14,6 +17,8 @@
 
 .league-card:hover {
     cursor: pointer;
-    color: rgb(227, 249,248);
-    background-color: #1d1d1d;
+    /* color: #1d1d1d;
+    background-color: #bbbbbb; */
+    background-color: #f0efef;
+    /*border: solid 1px #1d1d1d;*/
 }

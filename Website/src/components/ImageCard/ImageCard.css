@@ -5,17 +5,20 @@
     align-items: center;
     height: 400px;
     width: 300px;
-    background-color: #1d1d1d;
-    color: rgb(227, 249,248);
+    /* background-color: #1d1d1d;
+    color: rgb(227, 249,248); */
     font-family: Copperplate;
     border-radius: 5px;
     margin-left: 10px;
     padding: 0px;
     margin-bottom: 10px;
+    border: solid 1px white;
 }
 
 .card:hover {
     cursor: pointer;
-    color: rgb(227, 249,248);
-    background-color: #1d1d1d;
+    /* color: #1d1d1d;
+    background-color: #bbbbbb; */
+    background-color: #f0efef;
+    border: solid 1px #1d1d1d;
 }

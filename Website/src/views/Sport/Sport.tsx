@@ -18,7 +18,7 @@ function Sport() {
 
     function getUpcomingRound(): []  {
         const currentYear = new Date().getFullYear();
-        const roundNum = 15;
+        const roundNum = 23;
         if (matches) {
             const season = matches[currentYear];
             const round = season[roundNum];
@@ -80,7 +80,7 @@ function Sport() {
             }
             <h2 className="sport__header">Leagues</h2>
             <div className="sport__leagues">
-                <LeagueCard cardTitle="NRL" cardUrl="/nrl"/>
+                <LeagueCard cardTitle="NRL" cardUrl="sport/nrl"/>
             </div>
         </div>
     )
